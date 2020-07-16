@@ -4,9 +4,11 @@
     <ul>
         <!-- Con la directiva v-for repetimos un elemento htlm tantas veces
         como elementos tenga la lista, -con indice-
-         y tiene que tener la propiedad key (unica)-->
-        <li v-for="(number,i) in numbers" :key="i"></li>
-            {{numbers}} 
+         y tiene que tener la propiedad key (unica) 
+         "item in items"/"(item, i) in items"-->
+        <li v-for="(number,i) in numbers" :key="i">
+            {{number}} 
+        </li>    
     </ul>
     </div>
 </template>

@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    name:"Template", 
+    name:'Binding', 
     //para definir los métodos del componente
     methods: {
         onClick(ev){
