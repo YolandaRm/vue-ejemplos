@@ -7,7 +7,7 @@
     <List />
     <Props  :hello= "'bonjour'" />
     <Events @my-event="onMyEvent"/>
-    <!-- <Ejercicio01 /> -->
+    <Ejercicio01 />
   </div> 
 </template>
 
@@ -19,7 +19,7 @@ import Conditional from './ejemplos/Conditional.vue';
 import List from './ejemplos/List.vue';
 import Props from './ejemplos/Props.vue';
 import Events from './ejemplos/Events.vue';
-/* import Ejercicio01 from './ejercicios/Ejercicio01.vue'; */
+import Ejercicio01 from './ejercicios/Ejercicio01.vue';
 
 export default {
   //nombre del componente
@@ -31,8 +31,8 @@ export default {
     Conditional,
     List,
     Props,
-    Events
-   /*  Ejercicio01*/
+    Events,
+    Ejercicio01
   },
   methods: {
     onMyEvent(a, b){
@@ -45,8 +45,5 @@ export default {
 <style>
 h1 {
   color:blue;
-}
-.saludo {
-  color:rgb(235, 50, 204);
 }
 </style>
